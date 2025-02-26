@@ -1,0 +1,43 @@
+ECMAScript = Specification
+JAVASCRIPT = Programming Language
+
+STATEMENT = is a piece of code that expresses and action to be carried out
+    - All statement was ended in semicolon
+
+VARIABLES = for storing data temporarily in computers memory
+    let = for declaring VARIABLES
+
+
+//Data types 
+//PRIMITIVE TYPES / VALUE TYPES 
+    string   -     let Name = 'Mosh';
+    number   -     let age = 30;
+    boolean   -    let isApproved = false;
+    undefined   -   let firstName = undefined;
+    null    -       let selectedColor = null;
+
+
+ --REFERENCE TYPES 
+1. Objects 
+2. Arrays
+
+
+
+------------OBJECTS----------------
+{} = OBJECT literal
+let person = {
+    name: "paulallen",
+    age: 22,
+}
+
+--Dot - Notation
+    person.name = " AngelCyril"
+    console.log(perso.name);
+
+--Bracket Notation []   == SUPPORT DYNAMIC KEYS 
+let selection = 'name';
+person[selection] = 'Mary';
+console.log(person["name"]);
+
+.length = number in Arrays
+[]
