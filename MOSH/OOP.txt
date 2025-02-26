@@ -1,0 +1,32 @@
+(OOP) OBEJECT-ORIENTED PROGRAMMING 
+--------------------4 PILLARS OF OOP----------------------
+
+---------------------ENCAPSULATION 
+f() = method
+x = property 
+
+let Employee = {
+    salary: 3000,
+    overtime: 10,
+    rate: 20,
+
+    netWage: function(){
+        return this.salary + (this.overtime * this.rate);
+    }
+};
+console.log(Employee.netWage())
+
+-----------------------------------------------------------------------------------------------------
+
+----------------------ABSTRACTION
+Simpler Interface
+Reduce the Impact of Change
+
+-----------------------------------------------------------------------------------------------------
+
+-----------------------INHERITANCE
+To Eliminate REDUNDANT CODE
+
+-----------------------------------------------------------------------------------------------------
+                                      poly    morph
+---------------------POLYMORPHISM   = MANY    FORM
