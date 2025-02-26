@@ -41,3 +41,8 @@ console.log(person["name"]);
 
 .length = number in Arrays
 []
+
+
+----TYPES OF FUNCTIONS 
+PERFORMING TASK 
+CALCULATING A VALUE
