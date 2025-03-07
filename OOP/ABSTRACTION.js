@@ -30,5 +30,22 @@ function Haircut (barbers, faded, mullet){
 Haircut.prototype.getInfo = function() {
     return `for ${this.barbers} and for ${this.faded} ${this.mullet}`
 }
-const Person = new Haircut ("Darwin", "palworx", "christian");
-console.log(Person)
+// const Person = new Haircut ("Darwin", "palworx", "christian");
+// console.log(Person)
+
+// INHERITANCE 
+function Student (barbers, faded, mullet, Tomahawk){
+    Haircut.call (this, barbers, faded, mullet)
+    this.newCut = Tomahawk;
+}
+// to change the  function 
+Student.prototype.allreadyCut = function (Tomahawk){
+    this.new = Tomahawk;
+    this.Cutallready = true;
+}
+
+const student = new Student ("darwin", "paul", "angel Cyril", "christian");
+//console.log(student);
+
+student.allreadyCut("pushback")
+console.log(student);
